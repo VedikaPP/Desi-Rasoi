@@ -45,6 +45,24 @@ The website emphasizes **authentic Indian flavors**, **easy-to-follow recipes**,
 
 
 ---
+## 🛠️ Tools & Technologies
+
+**Frontend:**  
+- HTML5  
+- CSS3 (with responsive design and animations)  
+- JavaScript (for dynamic recipe display, search, and form interactions)  
+
+**Backend (Email / Contact Form):**  
+- EmailJS (to send contact form messages directly to your email without PHP)  
+
+**Data / Storage:**  
+- Local Storage (for passing recipe details between pages)  
+- SQL (optional, for contact database if using local testing with PHP/MySQL)  
+
+**Deployment:**  
+- Vercel (for hosting the static website)
+
+---
 
 ## ⚡ Features for Fun & Engagement
 
