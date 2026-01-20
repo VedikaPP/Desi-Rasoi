@@ -1,2 +1,55 @@
-# Desi-Rasoi
-Desi Rasoi
+# 🍲 Desi Rasoi – Traditional Indian Recipes Website
+
+## Project Overview
+
+**Desi Rasoi** is a **fully responsive, modern, and fun website** showcasing traditional Indian recipes with a contemporary twist.  
+This solo project aims to provide a **user-friendly platform** where visitors can explore vegetarian and non-vegetarian recipes, read food blogs, and connect directly with the website team via a fun and interactive contact form.
+
+The website emphasizes **authentic Indian flavors**, **easy-to-follow recipes**, and a **friendly user experience**.
+
+---
+
+## 🌟 Features
+
+### 1. Home Page
+- Welcome section with **attractive background and typography**.  
+- Introduction to Indian recipes and flavors.  
+- **Recipe categories** with cards: Vegetarian, Non-Vegetarian, and Blog.  
+- Smooth **hover effects** and **responsive grid layout**.  
+- Call-to-action buttons like **Explore Recipes** and **Contact Us**.
+
+### 2. Recipes Page
+- Listing of **vegetarian and non-vegetarian recipes**.  
+- Structured layout with **recipe images, names, and descriptions**.  
+- **Next / Previous buttons** for navigation between recipes (optional expansion).  
+- Star rating system (optional).  
+- Fully responsive and visually appealing design.
+
+### 3. Single Recipe Page 
+- Detailed instructions for each recipe.  
+- Ingredients list with quantity and cooking steps.  
+- Images for visual guidance.  
+- Space for **fun chef notes or tips**.
+
+### 4. Blog Page
+- Articles about spices, kitchen tips, and food stories.  
+- Attractive card layout with images.  
+- Easy navigation for readers.
+
+### 5. Contact Page 
+- Fun, interactive contact form powered by **EmailJS** (no backend required).  
+- Form fields: **Name, Email, Subject/Recipe Name, Message**.  
+- **Immediate thank-you popup** with a friendly and funny message.  
+- Auto-reply template sent to user email confirming receipt of message.  
+- Contact information card with email, location, and kitchen hours.
+
+
+---
+
+## ⚡ Features for Fun & Engagement
+
+- **Emoji-rich UI** to make the website playful.  
+- Fun **thank-you messages** on contact form submission.  
+- Smooth **hover effects and animations** on buttons and cards.  
+- Recipes are categorized for **easy exploration**.  
+- Fully **mobile-friendly and responsive** layout.
