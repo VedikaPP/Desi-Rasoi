@@ -52,12 +52,12 @@ The website emphasizes **authentic Indian flavors**, **easy-to-follow recipes**,
 - CSS3 (with responsive design and animations)  
 - JavaScript (for dynamic recipe display, search, and form interactions)  
 
-**Backend (Email / Contact Form):**  
-- EmailJS (to send contact form messages directly to your email without PHP)  
+**Backend :**  
+- EmailJS  
 
 **Data / Storage:**  
-- Local Storage (for passing recipe details between pages)  
-- SQL (optional, for contact database if using local testing with PHP/MySQL)  
+- Local Storage
+- SQL  
 
 **Deployment:**  
 - Vercel (for hosting the static website)
