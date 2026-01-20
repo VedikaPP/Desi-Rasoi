@@ -53,3 +53,15 @@ The website emphasizes **authentic Indian flavors**, **easy-to-follow recipes**,
 - Smooth **hover effects and animations** on buttons and cards.  
 - Recipes are categorized for **easy exploration**.  
 - Fully **mobile-friendly and responsive** layout.
+
+---
+## 🙋‍♂️ Let's Connect 
+
+This project **Desi Rasoi** is a **solo effort**, crafted with passion to learn and showcase web development skills using **HTML, CSS, and JavaScript**.  
+
+I am open to **feedback, collaboration, and queries**!  
+If you have ideas to improve this project, want to contribute recipes, or just want to discuss web development and food, feel free to reach out.  
+
+- **Email:** vdkphadtare@gmail.com  
+
+Let’s cook some amazing code and delicious recipes together! 🍛💻❤️
