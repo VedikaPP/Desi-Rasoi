@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us | Desi Rasoi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Extra Styling for Contact Page -->
+  <style>
+    .contact-container {
+      max-width: 900px;
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 20px;
+    }
+
+    .contact-info {
+      background: #fff1e0;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      animation: fadeIn 1s ease;
+    }
+
+    .contact-info h2 {
+      color: #7b1e1e;
+    }
+
+    .contact-info p {
+      line-height: 1.7;
+    }
+
+    .contact-form {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      animation: fadeIn 1s ease;
+    }
+
+    .contact-form h2 {
+      margin-bottom: 20px;
+      color: #7b1e1e;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 15px;
+    }
+
+    .contact-form textarea {
+      resize: none;
+      height: 120px;
+    }
+
+    .contact-form button {
+      width: 100%;
+      background: #ff9933;
+      border: none;
+      padding: 12px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .contact-form button:hover {
+      background: #e6851e;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px);}
+      100% { opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <h2>🍲 Desi Rasoi</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="recipes.html">Recipes</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Get in Touch</h1>
+  <p>We love food talks more than diet talks 😄</p>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact-container">
+
+  <!-- LEFT INFO -->
+  <div class="contact-info">
+    <h2>📞 Let's Talk Food</h2>
+    <p>
+      Have a recipe suggestion? Found a typo?  
+      Or just want to say hello? 👋  
+    </p>
+
+    <p>
+      We read every message carefully — sometimes while eating biryani 🍗😉
+    </p>
+
+    <p>
+      <b>Email:</b> desirasoi@gmail.com <br>
+      <b>Location:</b> India 🇮🇳 <br>
+      <b>Kitchen Hours:</b> 24/7 (Food never sleeps!)
+    </p>
+
+    <p>
+      🔥 <i>Chef’s Promise:</i>  
+      No spam, no boring replies — only love & food vibes ❤️
+    </p>
+  </div>
+
+  <!-- RIGHT FORM -->
+  <div class="contact-form">
+    <h2>📩 Send Us a Message</h2>
+
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="title" placeholder="Subject / Title" required>
+      <textarea name="message" placeholder="Write your message..."></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Desi Rasoi | Conversations served hot 🔥</p>
+</footer>
+
+<!-- EMAILJS SCRIPT -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init('PZZXjqmQTapphnQBp'); // Replace with your EmailJS public key
+  })();
+
+  const form = document.getElementById('contactForm');
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+
+    emailjs.sendForm('Desi_Rasoi_12', 'Temp_Rasoi_12', this)
+      .then(function(){
+        alert(
+          "🎉 Thanks for connecting! Our chefs are already tasting samosas 😄. We'll reply in 3 days! 🍛"
+        );
+        form.reset();
+      }, function(error){
+        alert("Oops! Something went wrong 😬, please try again later.");
+        console.log(error);
+      });
+  });
+</script>
+
+</body>
+</html>
